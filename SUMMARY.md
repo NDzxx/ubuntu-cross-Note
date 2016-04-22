@@ -1,5 +1,5 @@
 # Summary
 
 * [介绍](README.md)
-* 软件安装和配置
+* [软件安装和配置](software.md)
 
