@@ -8,3 +8,8 @@ sudo gedit  /etc/redis/redis.conf
 找到bind 127.0.0.1 一行，前面加#  
 如 ##bind 127.0.0.1
 
+启动redis
+sudo redis-server /etc/redis/redis.conf
+
+关闭redis
+redis-cli shutdown
