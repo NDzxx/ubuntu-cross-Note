@@ -1,5 +1,13 @@
 # 软件安装和配置
 1.编译环境
+##vm11虚拟机开启共享解决
+```
+cd ~
+apt-get install git gcc make linux-headers-$(uname -r)
+git clone https://github.com/rasa/vmware-tools-patches.git
+cd vmware-tools-patches
+./patched-open-vm-tools.sh
+```
 
 ##切换163源  
 sudo gedit /etc/apt/sources.list
