@@ -13,3 +13,6 @@ sudo redis-server /etc/redis/redis.conf
 
 关闭redis
 redis-cli shutdown
+
+客户端远程连接redis
+使用RedisStudio-en-0.1.5 
