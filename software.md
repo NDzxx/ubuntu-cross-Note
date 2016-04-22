@@ -20,5 +20,10 @@ sudo apt-get update
 
 sudo apt-get build-essential
 
+##IDE
+- codeblocks
+  ubuntu软件中心搜codeblock,一步安装
+- clion
+  
 
 
