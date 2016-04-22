@@ -45,3 +45,15 @@ sudo mv jdk-8u45-linux-x64.tar.gz /usr/local
 && cd /usr/local  
 && sudo tar -zxvf  jdk-8u45-linux-x64.tar.gz 
 
+编辑环境脚本：sudo gedit /etc/profile，在文件尾部加入：
+```
+#cfg
+JAVA_HOME=/usr/local/jdk1.8.0_45
+PATH=$PATH:$JAVA_HOME/bin
+CLASSPATH=.:$JAVA_HOME/bin/dt.jar:$JAVA_HOME/lib/tools.jar
+export JAVA_HOME
+export PATH
+export CLASSPATH
+```
+
+
