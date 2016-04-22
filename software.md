@@ -20,12 +20,6 @@ sudo apt-get update
 
 sudo apt-get build-essential
 
-##IDE
-- codeblocks
-  ubuntu软件中心搜codeblock,一步安装
-- clion
-  
-
 ##cmake
  sudo apt-get install cmake
  
@@ -41,3 +35,13 @@ locate gcc
 查看版本  gcc -v 如果显示是5.3就对了  
 参考:  
 [ubuntu升级gcc5](http://www.open-open.com/lib/view/open1454683984651.html)
+
+##IDE
+- codeblocks
+  ubuntu软件中心搜codeblock,一步安装
+- clion
+  
+sudo mv jdk-8u45-linux-x64.tar.gz /usr/local  
+&& cd /usr/local  
+&& sudo tar -zxvf  jdk-8u45-linux-x64.tar.gz 
+
