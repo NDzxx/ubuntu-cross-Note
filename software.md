@@ -26,4 +26,7 @@ sudo apt-get build-essential
 - clion
   
 
-
+##cmake
+ sudo apt-get install cmake
+ 
+sudo apt-get install cmake-qt-gui  
