@@ -55,5 +55,6 @@ export JAVA_HOME
 export PATH
 export CLASSPATH
 ```
+注销或者重启后，输入java -version测试
 
 
