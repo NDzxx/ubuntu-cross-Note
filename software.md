@@ -30,3 +30,7 @@ sudo apt-get build-essential
  sudo apt-get install cmake
  
 sudo apt-get install cmake-qt-gui  
+
+##更新到g++5
+默认安装的g++4.8有一些c++11新特性不支持，需要更新到g++5
+
