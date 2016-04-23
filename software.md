@@ -27,10 +27,7 @@ locate gcc
 参考:  
 [ubuntu升级gcc5](http://www.open-open.com/lib/view/open1454683984651.html)
 
-##IDE
-- codeblocks
-  ubuntu软件中心搜codeblock,一步安装
-- clion
+##IDE CLion
   
 sudo mv jdk-8u45-linux-x64.tar.gz /usr/local  
 && cd /usr/local  
@@ -47,7 +44,11 @@ export PATH
 export CLASSPATH
 ```
 注销或者重启后，输入java -version测试
-解包tar -zxvf 
+解包Clion 进入其中bin目录，运行clion.sh
+授权：
+help->reg  
+http://idea.qinxi1992.cn
+
 
 
 
