@@ -9,23 +9,6 @@ cd vmware-tools-patches
 ./patched-open-vm-tools.sh
 ```
 
-##切换163源  
-sudo gedit /etc/apt/sources.list
-在gedit打开的文件后复制黏贴以下内容
-deb http://mirrors.163.com/ubuntu/ vivid main restricted universe multiverse
-deb http://mirrors.163.com/ubuntu/ vivid-security main restricted universe multiverse
-deb http://mirrors.163.com/ubuntu/ vivid-updates main restricted universe multiverse
-deb http://mirrors.163.com/ubuntu/ vivid-proposed main restricted universe multiverse
-deb http://mirrors.163.com/ubuntu/ vivid-backports main restricted universe multiverse
-deb-src http://mirrors.163.com/ubuntu/ vivid main restricted universe multiverse
-deb-src http://mirrors.163.com/ubuntu/ vivid-security main restricted universe multiverse
-deb-src http://mirrors.163.com/ubuntu/ vivid-updates main restricted universe multiverse
-deb-src http://mirrors.163.com/ubuntu/ vivid-proposed main restricted universe multiverse
-deb-src http://mirrors.163.com/ubuntu/ vivid-backports main restricted universe multiverse  
-写上软件源后，再刷新一下，注意一定要刷新，运行：  
-sudo apt-get update
-
-
 sudo apt-get build-essential
 
 ##cmake
