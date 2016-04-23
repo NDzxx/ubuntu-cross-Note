@@ -1,11 +1,10 @@
 # lib
-##curl
-//sudo apt-get install curl  libcurl libcurl-dev  
+##curl 和openssl
+sudo apt-get install curl
 
 sudo apt-get install libcurl4-openssl-dev  
-##openssl
-sudo apt-get install openssl   
-sudo apt-get install libssl-dev  
+
+
 
 ##protobuf
 
