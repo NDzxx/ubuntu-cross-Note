@@ -23,6 +23,12 @@ sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 sudo apt-get install gcc-5 g++-5  
 sudo updatedb && sudo ldconfig  
 locate gcc  
+
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 53 \
+ --slave /usr/bin/g++ g++ /usr/bin/g++-5 \
+ --slave /usr/bin/gcc-ar gcc-ar /usr/bin/gcc-ar-5 \
+ --slave /usr/bin/gcc-nm gcc-nm /usr/bin/gcc-nm-5 \
+ --slave /usr/bin/gcc-ranlib gcc-ranlib /usr/bin/gcc-ranlib-5
 查看版本  gcc -v 如果显示是5.3就对了  
 参考:  
 [ubuntu升级gcc5](http://www.open-open.com/lib/view/open1454683984651.html)
