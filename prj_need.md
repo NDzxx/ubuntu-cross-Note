@@ -23,7 +23,7 @@ redis-cli shutdown
 ```
 sudo apt-get install mysql-server
  
-apt-get isntall mysql-client
+apt-get install mysql-client
  
 sudo apt-get install libmysqlclient-dev
 ```
