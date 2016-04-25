@@ -21,3 +21,6 @@ vncserver :1 -geometry 1024x768 -depth 16 -pixelformat rgb565
 win7下运行输入mstsc
 输入ip 后填写入用户名密码就可以看到桌面了
 
+##ubuntu 使用XFCE4桌面
+
+
