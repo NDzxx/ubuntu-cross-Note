@@ -1,7 +1,7 @@
 # win7远程链接ubuntu桌面
 
 ##LXDE桌面 
-注意：只适合lubuntu和服务器版，据说ubuntu会有unity兼容问题必须使用xfce
+建议采用这种，占资源比较小
 
 安装LXDE TightVNC桌面  
 apt-get install xorg lxde-core tightvncserver  
