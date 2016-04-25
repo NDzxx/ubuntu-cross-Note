@@ -15,5 +15,9 @@ sudo leafpad ~/.vnc/xstartup
 在最后一行加上下面脚本。  
 lxterminal &
 /usr/bin/lxsession -s LXDE &  
-启动VNC设置分辨率
-vncserver :1 -geometry 1024x768 -depth 16 -pixelformat rgb565
+启动VNC设置分辨率  
+vncserver :1 -geometry 1024x768 -depth 16 -pixelformat rgb565  
+
+win7下运行输入mstsc
+输入ip 后填写入用户名密码就可以看到桌面了
+
