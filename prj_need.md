@@ -17,7 +17,7 @@ redis-cli shutdown
 客户端远程连接redis
 使用RedisStudio-en-0.1.5 
 
- ##mysql5.7.9
+ ##mysql 5.7.9
  - 下载
  wget http://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.9-linux-glibc2.5-x86_64.tar.gz
  
