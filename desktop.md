@@ -18,17 +18,9 @@ lxterminal &
 启动VNC设置分辨率  
 vncserver :1 -geometry 1024x768 -depth 16 -pixelformat rgb565  
 
-win7下运行输入mstsc
-输入ip 后填写入用户名密码就可以看到桌面了
 
-##ubuntu 使用XFCE4桌面
-安装远程桌面服务器
 
-sudo apt-get install xrdp 
-sudo apt-get install vnc4server tightvncserver 
-都装上了之后，在“首选项—远程桌面”那里，设置好，允许远程桌面，允许控制等。
-
-　　Windows下的操作：
+##Windows下的操作：
 
 　　打开“远程桌面连接”，在“计算机”那一栏里，填上你要连接的Ubuntu的IP地址即可。在Ubuntu下可以通过“ifconfig”获得本机网络连接的概况，其中包括IP地址。
 
