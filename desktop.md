@@ -26,3 +26,10 @@ win7下运行输入mstsc
 
 sudo apt-get install xrdp 
 sudo apt-get install vnc4server tightvncserver 
+都装上了之后，在“首选项—远程桌面”那里，设置好，允许远程桌面，允许控制等。
+
+　　Windows下的操作：
+
+　　打开“远程桌面连接”，在“计算机”那一栏里，填上你要连接的Ubuntu的IP地址即可。在Ubuntu下可以通过“ifconfig”获得本机网络连接的概况，其中包括IP地址。
+
+　　填上正确的IP地址回车，会出现一个登陆框，我们选择“sessman-xvnc”这个，然后输入你的Ubuntu的用户名和密码，OK！ 
