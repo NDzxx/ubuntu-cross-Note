@@ -4,5 +4,5 @@
 * [软件安装和配置](software.md)
    * [工程需要软件](prj_need.md)
    * [lib](lib.md)
-   * [deskTop](desktop.md)
+   * [远程桌面](desktop.md)
 
