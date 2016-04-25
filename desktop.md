@@ -22,5 +22,7 @@ win7下运行输入mstsc
 输入ip 后填写入用户名密码就可以看到桌面了
 
 ##ubuntu 使用XFCE4桌面
+安装远程桌面服务器
 
-
+sudo apt-get install xrdp 
+sudo apt-get install vnc4server tightvncserver 
