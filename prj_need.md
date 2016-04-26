@@ -30,6 +30,7 @@ sudo apt-get remove mysql-common
 dpkg -l |grep ^rc|awk '{print $2}' |sudo xargs dpkg -P  
  
 将deb包解压出以下文件：
+tar -xvf mysql-server_5.7.9-1ubuntu14.04_amd64.deb-bundle.tar
 
 libmysqlclient20_5.7.9-1ubuntu14.04_amd64.deb
 
