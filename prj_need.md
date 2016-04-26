@@ -110,7 +110,7 @@ ALTER TABLE `user` ADD `Create_tablespace_priv` ENUM('N','Y') NOT NULL DEFAULT '
 ALTER TABLE `user` ADD `plugin` CHAR(64) NULL AFTER `max_user_connections`;   
 ALTER TABLE `user` ADD `authentication_string` TEXT NULL DEFAULT NULL AFTER `plugin`;  
 ALTER TABLE `user` ADD `password_expired` ENUM('N','Y') NOT NULL DEFAULT 'N' AFTER `authentication_string`;  
-#然后再次运行授权
+然后再次运行授权
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.224.116' IDENTIFIED BY 'root'  WITH GRANT OPTION;  
 flush privileges;  
 ###设置
