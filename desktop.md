@@ -13,7 +13,10 @@ tightvncserver :1
 停止VNC服务修改配置  
 tightvncserver -kill :1  
 修改配置  
+lubuntu下  
 sudo leafpad ~/.vnc/xstartup  
+ubuntu下  
+sudo gedit ~/.vnc/xstartup  
 在最后一行加上下面脚本。  
 lxterminal &
 /usr/bin/lxsession -s LXDE &  
