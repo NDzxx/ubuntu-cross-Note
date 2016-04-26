@@ -18,18 +18,63 @@ redis-cli shutdown
 使用RedisStudio-en-0.1.5 
 
  ##mysql 5.7.9
- - 下载
- wget http://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.9-linux-glibc2.5-x86_64.tar.gz
- 
-- 安装
+ 将deb包解压出以下文件：
 
-```
-sudo apt-get install mysql-server
- 
-apt-get install mysql-client
- 
-sudo apt-get install libmysqlclient-dev
-```
+libmysqlclient20_5.7.9-1ubuntu14.04_amd64.deb
+
+libmysqlclient-dev_5.7.9-1ubuntu14.04_amd64.deb
+
+libmysqld-dev_5.7.9-1ubuntu14.04_amd64.deb  
+
+mysql-community-client_5.7.9-1ubuntu14.04_amd64.deb
+
+mysql-community-server_5.7.9-1ubuntu14.04_amd64.deb      
+
+mysql-community-source_5.7.9-1ubuntu14.04_amd64.deb
+
+mysql-client_5.7.9-1ubuntu14.04_amd64.deb         
+
+mysql-community-test_5.7.9-1ubuntu14.04_amd64.deb
+
+mysql-common_5.7.9-1ubuntu14.04_amd64.deb         
+
+mysql-server_5.7.9-1ubuntu14.04_amd64.deb
+
+mysql-community_5.7.9-1ubuntu14.04_amd64.changes  
+
+mysql-testsuite_5.7.9-1ubuntu14.04_amd64.deb
+
+4,更新设置到最新系统：
+apt-get install libaio1
+5,然后分别安装以下的包：
+sudo dpkg -i mysql-common_5.7.9-1ubuntu14.04_amd64.deb  
+sudo dpkg-preconfigure mysql-community-server_5.7.9-1ubuntu14.04_amd64.deb  
+
+此步需要输入数据的root密码  
+
+sudo dpkg -i libmysqlclient20_5.7.9-1ubuntu14.04_amd64.deb  
+sudo dpkg -i libmysqlclient-dev_5.7.9-1ubuntu14.04_amd64.deb  
+sudo dpkg -i libmysqld-dev_5.7.9-1ubuntu14.04_amd64.deb  
+sudo dpkg -i mysql-client_5.7.9-1ubuntu14.04_amd64.deb  
+sudo dpkg -i mysql-community-client_5.7.9-1ubuntu14.04_amd64.deb  
+sudo dpkg -i mysql-common_5.7.9-1ubuntu14.04_amd64.deb  
+
+sudo apt-get -f install  
+5,此步为了安装依赖包 libmecab2  
+sudo apt-get install libmecab2  
+sudo dpkg -i mysql-community-server_5.7.9-1ubuntu14.04_amd64.deb  
+sudo dpkg -i mysql-server_5.7.9-1ubuntu14.04_amd64.deb  
+
+6,这时数据安装完成，并自动启动
+
+
+7,查看mysql安装的路径和依赖：
+
+whereis mysql
+
+mysql: /usr/bin/mysql /etc/mysql /usr/lib/mysql /usr/include/mysql /usr/share/mysql /usr/share/man/man1/mysql.1.gz
+
+这时你会发现 mysql以服务形式自启动
 - 启动
 ```
 sudo /etc/init.d/mysql start
