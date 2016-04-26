@@ -97,8 +97,7 @@ cat /var/log/mysql/error.log
 - 远程连接
 ###授权
 ```
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'  
-IDENTIFIED BY 'root'  WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'IDENTIFIED BY 'root'  WITH GRANT OPTION;
 flush privileges;
 ```
 ###设置
@@ -109,7 +108,7 @@ sudo gedit  /etc/mysql/my.cnf
 然后重启即可
 - 连接测试
 	```
-    mysql -h 192.168.228.130 -u root -p root
+    mysql -h 192.168.228.132 -u root -p root
     ```
 
 
