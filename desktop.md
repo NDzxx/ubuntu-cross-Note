@@ -1,10 +1,12 @@
 # win7远程链接ubuntu桌面
 
 ##LXDE桌面 
+sudo apt-get install xrdp
+sudo apt-get install vnc4server
 建议采用这种，占资源比较小
 
 安装LXDE TightVNC桌面  
-apt-get install xorg lxde-core tightvncserver  
+apt-get install xorg lxde-core tightvncserver 
 启动VNC且设置密码  
 tightvncserver :1  
 然后输入2次密码  
