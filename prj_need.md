@@ -102,10 +102,16 @@ cat /var/log/mysql/error.log
 - 远程连接
 ###授权
 ```
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'IDENTIFIED BY 'root'  WITH GRANT OPTION;
-#如果出错，输入
-ALTER TABLE `user` ADD `Create_tablespace_priv` ENUM('N','Y') NOT NULL DEFAULT 'N' AFTER `Trigger_priv`; ALTER TABLE `user` ADD `plugin` CHAR(64) NULL AFTER `max_user_connections`; ALTER TABLE `user` ADD `authentication_string` TEXT NULL DEFAULT NULL AFTER `plugin`; ALTER TABLE `user` ADD `password_expired` ENUM('N','Y') NOT NULL DEFAULT 'N' AFTER `authentication_string`;
+GRANT ALL PRIVILEGES ON *.* TO '用户名'@'host'IDENTIFIED BY '密码'  WITH GRANT OPTION;
+举个例子
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.224.116' IDENTIFIED BY 'root'  WITH GRANT OPTION;
+这时如果出错，输入
+ALTER TABLE `user` ADD `Create_tablespace_priv` ENUM('N','Y') NOT NULL DEFAULT 'N' AFTER `Trigger_priv`; 
+ALTER TABLE `user` ADD `plugin` CHAR(64) NULL AFTER `max_user_connections`; 
+ALTER TABLE `user` ADD `authentication_string` TEXT NULL DEFAULT NULL AFTER `plugin`;
+ALTER TABLE `user` ADD `password_expired` ENUM('N','Y') NOT NULL DEFAULT 'N' AFTER `authentication_string`;
 #然后再次运行授权
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.224.116' IDENTIFIED BY 'root'  WITH GRANT OPTION;
 flush privileges;
 ```
 ###设置
