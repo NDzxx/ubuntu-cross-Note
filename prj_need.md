@@ -18,7 +18,18 @@ redis-cli shutdown
 使用RedisStudio-en-0.1.5 
 
  ##mysql 5.7.9
- 将deb包解压出以下文件：
+ 先查看是否有安装旧版mysql  
+ mysql --version  
+有的话按如下方式卸载  
+sudo apt-get autoremove --purge mysql-server  
+sudo apt-get remove mysql-server  
+sudo apt-get autoremove mysql-server  
+sudo apt-get remove mysql-common  
+清理残留数据  
+
+dpkg -l |grep ^rc|awk '{print $2}' |sudo xargs dpkg -P  
+ 
+将deb包解压出以下文件：
 
 libmysqlclient20_5.7.9-1ubuntu14.04_amd64.deb
 
@@ -55,8 +66,8 @@ sudo dpkg-preconfigure mysql-community-server_5.7.9-1ubuntu14.04_amd64.deb
 sudo dpkg -i libmysqlclient20_5.7.9-1ubuntu14.04_amd64.deb  
 sudo dpkg -i libmysqlclient-dev_5.7.9-1ubuntu14.04_amd64.deb  
 sudo dpkg -i libmysqld-dev_5.7.9-1ubuntu14.04_amd64.deb  
-sudo dpkg -i mysql-client_5.7.9-1ubuntu14.04_amd64.deb  
 sudo dpkg -i mysql-community-client_5.7.9-1ubuntu14.04_amd64.deb  
+sudo dpkg -i mysql-client_5.7.9-1ubuntu14.04_amd64.deb  
 sudo dpkg -i mysql-common_5.7.9-1ubuntu14.04_amd64.deb  
 
 sudo apt-get -f install  
@@ -67,12 +78,6 @@ sudo dpkg -i mysql-server_5.7.9-1ubuntu14.04_amd64.deb
 
 6,这时数据安装完成，并自动启动
 
-
-7,查看mysql安装的路径和依赖：
-
-whereis mysql
-
-mysql: /usr/bin/mysql /etc/mysql /usr/lib/mysql /usr/include/mysql /usr/share/mysql /usr/share/man/man1/mysql.1.gz
 
 这时你会发现 mysql以服务形式自启动
 - 启动
