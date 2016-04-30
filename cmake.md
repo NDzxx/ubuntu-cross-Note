@@ -2,8 +2,9 @@
 
 
 EXEC_PROGRAM  
+```
 EXEC_PROGRAM(Executable [dir where to run] [ARGS <args>][OUTPUT_VARIABLE <var>] [RETURN_VALUE <value>])  
-
+```
 用于在指定目录运行某个程序（默认为当前CMakeLists.txt所在目录）,通过ARGS添加参数,通过OUTPUT_VARIABLE和RETURN_VALUE获取输出和返回值,如下示例
 ```
 # 在src中运行ls命令,在src/CMakeLists.txt添加
