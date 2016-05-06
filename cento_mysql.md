@@ -49,4 +49,9 @@ export PATH
 
 source /etc/profile
 
+修改root密码
+cd /usr/local/mysql/bin  
+
+mysqladmin -u root password "你的密码"  
+
 
