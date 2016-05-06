@@ -66,3 +66,4 @@ sudo /etc/init.d/mysql stop
 ```
 sudo /etc/init.d/mysql restart
 ```
+##远程连接
