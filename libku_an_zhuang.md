@@ -14,8 +14,9 @@ yum -y install curl curl-devel
     make    
     make check    
     make install    
-    
-    
- 
+  
+ ldconfig  
+yum -y install dos2unix yum install unix2dos  
+
  
 
