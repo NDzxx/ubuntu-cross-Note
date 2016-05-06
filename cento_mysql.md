@@ -54,4 +54,15 @@ cd /usr/local/mysql/bin
 
 mysqladmin -u root password "你的密码"  
 
-
+- 启动
+```
+sudo /etc/init.d/mysql start
+```
+- 停止
+```
+sudo /etc/init.d/mysql stop
+```
+- 重启
+```
+sudo /etc/init.d/mysql restart
+```
