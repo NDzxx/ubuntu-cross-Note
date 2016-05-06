@@ -8,4 +8,5 @@
    * [cmake](cmake.md)
 * [Cento安装](centoan_gcc.md)
    * [cento下mysql安装](cento_mysql.md)
+   * redis3.0.7配置
 
