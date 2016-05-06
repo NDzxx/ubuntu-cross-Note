@@ -7,5 +7,5 @@
    * [远程桌面](desktop.md)
    * [cmake](cmake.md)
 * [Cento安装](centoan_gcc.md)
-   * cento下mysql安装
+   * [cento下mysql安装](cento_mysql.md)
 
