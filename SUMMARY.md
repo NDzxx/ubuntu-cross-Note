@@ -6,4 +6,5 @@
    * [lib](lib.md)
    * [远程桌面](desktop.md)
    * [cmake](cmake.md)
+* Cento安装
 
