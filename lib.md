@@ -51,3 +51,4 @@ shell>git clone https://github.com/google/protobuf.git
 
 这个时候编译安装就已经完成了。
 ldconfig
+yum -y install dos2unix yum install unix2dos
