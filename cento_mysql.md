@@ -80,6 +80,18 @@ ALTER TABLE `user` ADD `password_expired` ENUM('N','Y') NOT NULL DEFAULT 'N' AFT
 然后再次运行授权
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.224.116' IDENTIFIED BY 'root'  WITH GRANT OPTION;  
 flush privileges;  
+
+##防火墙
+/etc/init.d/iptables status
+
+如果得到一系列信息，说明防火墙开着。
+
+/etc/init.d/iptables stop  关闭防火墙，此处应该根据需要进行配置，虚拟机为求简单直接关闭
+
+cp support-files/mysql.server /etc/init.d/mysqld
+chkconfig --add mysqld
+service mysqld start
+chkconfig --level 345 mysqld on 
 ###设置
 ```
 sudo gedit  /etc/mysql/my.cnf
