@@ -8,6 +8,8 @@ yum -y install curl curl-devel
  yum -y install openssl-devel  
  
  ##Protobuf
+ tar -zxvf protobuf.tar.gz
+ ./autogen.sh
  
  
 
