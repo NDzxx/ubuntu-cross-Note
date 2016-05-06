@@ -35,4 +35,16 @@ cd /usr/local/mysql/bin
 cd /usr/local/mysql/support-files  
 cp my-default.cnf /etc/my.cnf    
 复制完毕后gedit /etc/my.cnf 查看下bind 127.0.0.1前面是否有#，没有补上#
-cp /usr/local/mysql/support-files/mysql.server /etc/init.d/mysql 
+cp /usr/local/mysql/support-files/mysql.server /etc/init.d/mysql   、
+
+chmod 755 /etc/init.d/mysql   
+
+gedit /etc/profile
+补充：
+```
+PATH=/usr/local/mysql/bin:$PATH 
+
+export PATH
+```
+
+source /etc/profile
