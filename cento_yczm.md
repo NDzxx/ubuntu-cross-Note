@@ -26,3 +26,8 @@ vncserver
 chkconfig vncserver on
 重启
 service vncserver restart
+
+windows上安装viewvnc，输入ip地址和端口号进行连接  
+
+如图  
+![vnc](vnc.png)
