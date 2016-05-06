@@ -27,5 +27,12 @@ cp ../redis.conf /etc/redis
 gedit /etc/redis/redis.conf  
 
 查看bind 127.0.0.1是否被绑定，如果绑定，加个#注释掉
-cd /usr/redis
 
+启动redis
+sudo redis-server /etc/redis/redis.conf
+
+关闭redis
+redis-cli shutdown
+
+客户端远程连接redis
+使用RedisStudio-en-0.1.5 
