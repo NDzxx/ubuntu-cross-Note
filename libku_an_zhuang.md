@@ -20,3 +20,10 @@ yum -y install dos2unix yum install unix2dos
 
  
 
+##iconv
+tar -zxvf libiconv-1.14.tar.gz  
+./configure --prefix=/usr  
+ make  
+ make install  
+ ldconfig 
+ 
