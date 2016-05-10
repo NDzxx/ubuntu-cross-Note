@@ -12,5 +12,5 @@
    * [redis3.0.7配置](redis307.md)
    * [lib库安装](libku_an_zhuang.md)
    * [cento开启远程桌面](cento_yczm.md)
-   * cmake安装
+   * [cmake安装](cmakean_zhuang.md)
 
