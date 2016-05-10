@@ -20,7 +20,13 @@ yum -y install glibc-devel.i686 glibc-devel
 
 make -j4
 
-make install
+make install  
+补充，升级后需要替换原有的软连接  
+ls -l /usr/lib64/libstdc++.so.6  可以看到它还是指向旧的  
+所以mv /usr/lib64/libstdc++.so.6 /usr/lib64/libstdc++.so.6.bk  
+ln -s /usr/local/lib64/libstdc++.so.6.0.21 /usr/lib64/libstdc++.so.6 建立新连接
+
+
 
 ##升级glibc 2.12到2.19
 原因:ubuntu14.04lts 是glibc 2.19，为了兼容两个版本，升级cento glibc
@@ -48,6 +54,8 @@ cd build
 ../configure –prefix=/usr –disable-profile –enable-add-ons –with-headers=/usr/include –with-binutils=/usr/bin
 
 make && make install
+
+
 
 
 
