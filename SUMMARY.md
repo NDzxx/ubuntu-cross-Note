@@ -6,6 +6,7 @@
    * [lib](lib.md)
    * [远程桌面](desktop.md)
    * [cmake](cmake.md)
+   * eclipse
 * [Cento安装](centoan_gcc.md)
    * [cento下mysql安装](cento_mysql.md)
    * [redis3.0.7配置](redis307.md)
