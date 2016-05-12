@@ -7,7 +7,8 @@ tar -zxvf mysql-5.7.9
 
 cd mysql-5.7.9
 
-mkdir -p /data/mysql
+mkdir -p /usr/local/mysql
+mkdir -p /usr/local/mysql/data
 
 mkdir zxxbuild
 
