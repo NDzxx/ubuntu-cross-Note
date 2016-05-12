@@ -34,6 +34,7 @@ cd /usr/local/mysql/bin
  ./mysqld --initialize-insecure --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data
  
   chown -R root .
+  chown -R mysql /usr/local/mysql/data
 
 cd /usr/local/mysql/support-files  
 cp my-default.cnf /etc/my.cnf    
