@@ -1,7 +1,7 @@
 # cento下mysql安装
 ##安装依赖，必须先升级gcc5.3  
 
-yum install -y ncurses-devel libstdc++*  libtool cmake lrzsz libaio-devel
+yum install -y ncurses-devel  libtool lrzsz libaio-devel ncurses ncurses-devel
 
 tar -zxvf mysql-5.7.9
 
