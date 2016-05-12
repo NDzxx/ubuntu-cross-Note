@@ -31,7 +31,7 @@ chgrp -R mysql .
 
 cd /usr/local/mysql/bin
 
- ./mysqld --initialize-insecure --user=mysql --basedir=/usr/local/mysql --datadir=/data/mysql
+ ./mysqld --initialize-insecure --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data
  
   chown -R root .
 
