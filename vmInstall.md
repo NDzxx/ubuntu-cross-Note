@@ -23,3 +23,13 @@ yum groupinstall -y   "Desktop"   "Desktop Platform"   "Desktop Platform Develop
 
 vi /etc/inittab  启动级别改为5
 
+虚拟机工具安装:  
+点击安装虚拟机工具  
+复制XX.tar.gz 到/tmp  
+tar -zxvf XX.tar.gz  
+进入解压出的目录  
+./XX.pl 运行带pl后缀名的即可  
+运行所有选项一律回车
+成功后重启，win下配置虚拟机共享目录即可在/mnt/hgfs下看到你的共享目录
+
+
