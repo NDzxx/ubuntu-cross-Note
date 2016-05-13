@@ -42,10 +42,11 @@ cp /usr/local/mysql/support-files/mysql.server /etc/init.d/mysql
 
 chmod 755 /etc/init.d/mysql  
 
-chkconfig -add mysql …加入自动启动项
+chkconfig --add mysql …加入自动启动项
 
-chkconfig -level 345 mysql on …设置MySQL在345等级自动启动
+chkconfig --level 345 mysql on …设置MySQL在345等级自动启动
 
+chkconfig --list   
 把服务文件放到/etc/init.d/目录下面相当于改为了rpm包安装的服务使用方式。
 
 gedit /etc/profile
