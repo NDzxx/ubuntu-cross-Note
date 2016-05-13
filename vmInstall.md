@@ -15,3 +15,13 @@ TYPE=Ethernet
 ONBOOT=yes　　　　　　　　　　#**是否启动时运行，注意这里由no改yes  **
 NM_CONTROLLED=yes  
 
+安装gnome桌面  
+链接：[安装gnome桌面](http://jingyan.baidu.com/article/ca2d939dd1dabbeb6c31ce24.html)
+
+```
+yum groupinstall -y   "Desktop"   "Desktop Platform"   "Desktop Platform Development"　 "Fonts" 　"General Purpose Desktop"　 "Graphical Administration Tools"　 "Graphics Creation Tools" 　"Input Methods" 　"X Window System" 　"Chinese Support [zh]"　"Internet Browser"
+```
+
+
+/etc/inittab
+
