@@ -2,7 +2,7 @@
 ##安装依赖，必须先升级gcc5.3  
 
 yum install -y ncurses-devel  libtool lrzsz libaio-devel ncurses ncurses-devel
-
+参考链接：[ CentOS7安装MYSQL5.7.9 ](http://wenku.baidu.com/link?url=8QN-xd0Fk0VE4n-jHW8OlWVf6Iydx-cZzkWOEITE7lpr9E1CTcMRUlUNcr_JnW3-cwOXn7GN8EP5KF9MhKAztCHm_BaKqavDNTOgNphUvxm)  
 tar -zxvf mysql-5.7.9
 
 cd mysql-5.7.9
