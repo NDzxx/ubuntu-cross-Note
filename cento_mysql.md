@@ -14,8 +14,6 @@ mkdir zxxbuild
 
 cd zxxbuild
 
-cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local/mysql -DMYSQL_DATADIR=/data/mysql -DSYSCONFDIR=/etc -DWITH_INNOBASE_STORAGE_ENGINE=1 -DWITH_PERFSCHEMA_STORAGE_ENGINE=1 -DDEFAULT_CHARSET=utf8 -DDEFAULT_COLLATION=utf8_general_ci -DMYSQL_UNIX_ADDR=/data/mysql/tmp/mysql.sock -DENABLED_LOCAL_INFILE=ON -DENABLED_PROFILING=ON -DWITH_DEBUG=0 -DENABLE_DTRACE=OFF -DMYSQL_TCP_PORT=3306 -DDOWNLOAD_BOOST=1 -DWITH_BOOST=../boost_1_59_0
-
 cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local/mysql -DMYSQL_DATADIR=/usr/local/mysql/data -DSYSCONFDIR=/etc -DWITH_INNOBASE_STORAGE_ENGINE=1 -DWITH_PERFSCHEMA_STORAGE_ENGINE=1 -DDEFAULT_CHARSET=utf8 -DDEFAULT_COLLATION=utf8_general_ci -DMYSQL_UNIX_ADDR=/usr/local/mysql/tmp/mysql.sock -DENABLED_LOCAL_INFILE=ON -DENABLED_PROFILING=ON -DWITH_DEBUG=0 -DENABLE_DTRACE=OFF -DMYSQL_TCP_PORT=3306 -DDOWNLOAD_BOOST=1 -DWITH_BOOST=../boost_1_59_0
 
 make && make install
@@ -26,22 +24,29 @@ groupadd mysql
 
 useradd -r -g mysql mysql
 
-chown -R mysql .
-chgrp -R mysql .
+chown -R mysql .  
+chgrp -R mysql .  
 
-cd /usr/local/mysql/bin
+cd /usr/local/mysql/bin  
 
- ./mysqld --initialize-insecure --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data
+ ./mysqld --initialize-insecure --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data  
  
-  chown -R root .
-  chown -R mysql /usr/local/mysql/data
+  chown -R root .  
+  chown -R mysql /usr/local/mysql/data  
 
-cd /usr/local/mysql/support-files  
+cd /usr/local/mysql/support-files   
+mv /etc/my.cnf my.cnf.bak   
 cp my-default.cnf /etc/my.cnf    
 复制完毕后gedit /etc/my.cnf 查看下bind 127.0.0.1前面是否有#，没有补上#
-cp /usr/local/mysql/support-files/mysql.server /etc/init.d/mysql   、
+cp /usr/local/mysql/support-files/mysql.server /etc/init.d/mysql  
 
-chmod 755 /etc/init.d/mysql   
+chmod 755 /etc/init.d/mysql  
+
+chkconfig -add mysql …加入自动启动项
+
+chkconfig -level 345 mysql on …设置MySQL在345等级自动启动
+
+把服务文件放到/etc/init.d/目录下面相当于改为了rpm包安装的服务使用方式。
 
 gedit /etc/profile
 补充：
@@ -52,11 +57,7 @@ export PATH
 ```
 
 source /etc/profile
-
-修改root密码
-cd /usr/local/mysql/bin  
-
-mysqladmin -u root password "你的密码"  
+##启动mysql服务
 
 - 启动
 ```
@@ -70,6 +71,13 @@ sudo /etc/init.d/mysql stop
 ```
 sudo /etc/init.d/mysql restart
 ```
+
+修改root密码  
+cd /usr/local/mysql/bin  
+
+mysqladmin -u root password "你的密码"  
+
+
 ##远程连接
 ###授权
 
@@ -91,11 +99,7 @@ flush privileges;
 如果得到一系列信息，说明防火墙开着。
 
 /etc/init.d/iptables stop  关闭防火墙，此处应该根据需要进行配置，虚拟机为求简单直接关闭
-mysql自启动配置
-cp support-files/mysql.server /etc/init.d/mysqld
-chkconfig --add mysqld
-service mysqld start
-chkconfig --level 345 mysqld on 
+
 ###设置
 ```
 sudo gedit  /etc/mysql/my.cnf
