@@ -55,6 +55,7 @@ export CLASSPATH
 help->reg  
 http://idea.qinxi1992.cn
 
+clion很吃cpu和内存，使用的话，需要把处理器核心数至少提高到4，最好提高到8
 
 
 
