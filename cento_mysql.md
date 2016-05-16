@@ -113,3 +113,5 @@ sudo gedit  /etc/mysql/my.cnf
     打开win命令行
     mysql -h 192.168.228.132 -u root -p root
 ```
+##linux下运行mysql文件
+source 路径/XX.sql
