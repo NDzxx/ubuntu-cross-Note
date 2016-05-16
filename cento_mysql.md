@@ -85,6 +85,7 @@ mysqladmin -u root password "你的密码"
 GRANT ALL PRIVILEGES ON *.* TO '用户名'@'host'IDENTIFIED BY '密码'  WITH GRANT OPTION;  
 举个例子  
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.224.116' IDENTIFIED BY 'root'  WITH GRANT OPTION;  
+
 这时如果出错，输入  
 ALTER TABLE `user` ADD `Create_tablespace_priv` ENUM('N','Y') NOT NULL DEFAULT 'N' AFTER `Trigger_priv`;   
 ALTER TABLE `user` ADD `plugin` CHAR(64) NULL AFTER `max_user_connections`;   
