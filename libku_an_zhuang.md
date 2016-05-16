@@ -25,7 +25,7 @@ tar -zxvf libiconv-1.14.tar.gz
 ./configure --prefix=/usr  
  make  
  make install  
- ldconfig 
+ ldconfig
  
  ##复制lib库到本地
  安装locate  
