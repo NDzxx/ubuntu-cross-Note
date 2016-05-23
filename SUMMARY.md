@@ -1,6 +1,7 @@
 # Summary
 
 * [介绍](README.md)
+   * iis7的配置
 * [软件安装和配置](software.md)
    * [工程需要软件](prj_need.md)
    * [lib](lib.md)
