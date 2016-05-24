@@ -15,4 +15,5 @@
    * [cmake安装](cmakean_zhuang.md)
    * [虚拟机安装](vmInstall.md)
 * [iis7的配置](iis7de_pei_zhi.md)
+* 映射ip
 
