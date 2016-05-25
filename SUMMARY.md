@@ -17,5 +17,5 @@
 * [iis7的配置](iis7de_pei_zhi.md)
 * [映射ip](ying_she_ip.md)
 * [breakPad](breakpad.md)
-   * 调试Release发布版程序的Crash错误(转)
+   * [调试Release发布版程序的Crash错误(转)](crash.md)
 
