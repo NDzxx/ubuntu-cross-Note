@@ -9,33 +9,23 @@ make MALLOC=libc
 
 make install  
 
-
-mkdir /usr/redis  
-
 cd redis-3.0.7/src  
 
-cp redis-server  /usr/redis  
+cp ../redis.conf /etc/redis.conf
 
-cp redis-benchmark /usr/redis  
-
-cp redis-cli  /usr/redis  
-
-mkdir /etc/redis  
-
-cp ../redis.conf /etc/redis  
-
-gedit /etc/redis/redis.conf  
+gedit /etc/redis.conf
 
 查看bind 127.0.0.1是否被绑定，如果绑定，加个#注释掉
 
 开机自启动
 ```
 # chkconfig:   2345 90 10
+
 # description:  Redis is a persistent key-value database
-PATH=/usr/bin:/sbin:/usr/bin:/bin
+PATH=/usr/local/bin:/sbin:/usr/bin:/bin
 REDISPORT=6379
-EXEC=/usr/redis-server
-REDIS_CLI=/usr/redis-cli
+EXEC=/usr/local/bin/redis-server
+REDIS_CLI=/usr/local/bin/redis-cli
 PIDFILE=/var/run/redis.pid
 CONF="/etc/redis.conf"
 case "$1" in
@@ -77,10 +67,12 @@ echo "Usage: /etc/init.d/redis {start|stop|restart|force-reload}" >&2
 exit 1
 esac
 ```
+chmod +x /etc/init.d/redis
 sudo chkconfig redis on
 启动redis
-sudo redis-server /etc/redis/redis.conf
-
+service redis start
+service redis restart
+service redis stop
 关闭redis
 redis-cli shutdown
 
