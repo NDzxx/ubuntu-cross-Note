@@ -4,8 +4,10 @@
 git clone https://chromium.googlesource.com/breakpad/breakpad
 
 linux下编译
- ./configure
-  make
+# Configure
+CXXFLAGS=-m64 CFLAGS=-m64 CPPFLAGS=-m64 ./configure
+# Build
+make
  
 win下编译
 1.安装python2.x版本(python3.x版本将出现错误)
