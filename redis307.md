@@ -16,6 +16,7 @@ cp redis.conf /etc/redis.conf
 gedit /etc/redis.conf
 
 查看bind 127.0.0.1是否被绑定，如果绑定，加个#注释掉
+查找daemonize 设置为yes
 
 开机自启动
 ```
