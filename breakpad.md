@@ -5,7 +5,7 @@ git clone https://chromium.googlesource.com/breakpad/breakpad
 
 linux下编译
 # Configure
-CXXFLAGS=-m64 CFLAGS=-m64 CPPFLAGS=-m64 ./configure
+./configure
 # Build
 make
  
