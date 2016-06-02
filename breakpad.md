@@ -2,3 +2,9 @@
 
 下载地址：https://chromium.googlesource.com/breakpad/breakpad
 git clone https://chromium.googlesource.com/breakpad/breakpad
+
+linux下编译
+ ./configure
+  make
+ 
+  
