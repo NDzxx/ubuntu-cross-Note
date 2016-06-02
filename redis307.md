@@ -9,9 +9,9 @@ make MALLOC=libc
 
 make install  
 
-cd redis-3.0.7/src  
+cd redis-3.0.7  
 
-cp ../redis.conf /etc/redis.conf
+cp redis.conf /etc/redis.conf
 
 gedit /etc/redis.conf
 
