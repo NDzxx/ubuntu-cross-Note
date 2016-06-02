@@ -32,10 +32,10 @@ gedit /etc/redis/redis.conf
 ```
 # chkconfig:   2345 90 10
 # description:  Redis is a persistent key-value database
-PATH=/usr/local/bin:/sbin:/usr/bin:/bin
+PATH=/usr/bin:/sbin:/usr/bin:/bin
 REDISPORT=6379
-EXEC=/usr/local/bin/redis-server
-REDIS_CLI=/usr/local/bin/redis-cli
+EXEC=/usr/redis-server
+REDIS_CLI=/usr/redis-cli
 PIDFILE=/var/run/redis.pid
 CONF="/etc/redis.conf"
 case "$1" in
