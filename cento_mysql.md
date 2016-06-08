@@ -120,12 +120,12 @@ source 路径/XX.sql
 ##mysql Error 1130问题的解决方案
   远程连接mysql数据库的时候，报错：出现 ERROR 1130 (HY000): Host '117.79.246.*'is not allowed to connect to this MySQL server提示信息，不能远程连接数据库。
  
-  解决方案如下：
- 
+ 解决方案如下：  
   这个时候只要在localhost的那台电脑，登入mysql后，更改 "mysql" 数据库里的 "user" 表里的 "host" 项，从"localhost"改称"%"
  
-mysql -u root -p
-mysql>use mysql;
-mysql>update user set host = '%' where user = 'root';    //这个命令执行错误时，可能会报ERROR 1062 (23000): Duplicate entry '%-root' for key 1；这个错误，不用管它。
-mysql>flush privileges;
-mysql>select host, user from user;
+mysql -u root -p  
+mysql>use mysql;  
+mysql>update user set host = '%' where user = 'root';  
+//这个命令执行错误时，可能会报ERROR 1062 (23000): Duplicate entry '%-root' for key 1；这个错误，不用管它。  
+mysql>flush privileges;  
+mysql>select host, user from user;  
