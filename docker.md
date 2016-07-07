@@ -25,3 +25,6 @@ https://c.163.com/hub#/m/repository/?repoId=2973
 docker pull hub.c.163.com/library/redis:3.0.7
 cento 6.5镜像
 docker pull hub.c.163.com/public/centos:6.5
+
+dockerFile教程
+https://segmentfault.com/a/1190000002711357
