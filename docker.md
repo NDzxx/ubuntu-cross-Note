@@ -31,8 +31,8 @@ https://segmentfault.com/a/1190000002711357
 
 http://www.tuicool.com/articles/IruAJnF
 
-可以考虑使用的创新应用
-http://www.pc.nd/index.php?doc-view-39752-docker%2C
+可以考虑使用的创新应用  
+http://www.pc.nd/index.php?doc-view-39752-docker%2C  
 因此我们使用Docker Compose来解决我们所遇到的问题。
 
 1、安装Docker Compose
@@ -53,3 +53,6 @@ docker-compose up
 
 使用Docker Compose
 http://debugo.com/docker-compose/
+
+联网解决方案  
+http://cloud.51cto.com/art/201502/465958.htm
