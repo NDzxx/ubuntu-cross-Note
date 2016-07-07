@@ -62,5 +62,7 @@ https://linux.cn/article-5304-1.html
 docker容器内应用程序退出  
 http://www.tuicool.com/articles/vyyaYv  
 
-僵尸进程？？
+僵尸进程？？  
 http://www.oschina.net/translate/docker-and-the-pid-1-zombie-reaping-problem
+容器使用注意10个事  
+http://www.oschina.net/translate/10-things-to-avoid-in-docker-containers
