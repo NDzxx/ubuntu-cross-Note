@@ -31,5 +31,22 @@ https://segmentfault.com/a/1190000002711357
 
 http://www.tuicool.com/articles/IruAJnF
 
-可以使用的创新应用
+可以考虑使用的创新应用
 http://www.pc.nd/index.php?doc-view-39752-docker%2C
+因此我们使用Docker Compose来解决我们所遇到的问题。
+
+1、安装Docker Compose
+
+pip install -U docker-compose==1.4.02、使用docker-compose.yml来定义你的应用。
+redis:
+  image: redis
+  ports:
+   - "6379:6379"
+elasticsearch:
+  image: caofb/elasticsearch
+  ports:
+   - "9200:9200"
+
+3、运行docker compose
+
+docker-compose up
