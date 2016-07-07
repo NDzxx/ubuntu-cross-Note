@@ -4,6 +4,7 @@
 2.docker加载镜像测试  
 3.docker分别加载boxAcc redis mysql三个镜像并连接  
 4.可以使用后使用Docker Compose
+5.后续发展 kubernetes????
 
 cento 6.5最小化安装  
 http://mirrors.163.com/centos/6.5/isos/x86_64/CentOS-6.5-x86_64-minimal.iso
