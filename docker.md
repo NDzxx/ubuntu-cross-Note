@@ -70,3 +70,4 @@ http://www.oschina.net/translate/10-things-to-avoid-in-docker-containers
 使用supervisor运行多进程Docker容器 可解决僵尸进程  
 http://www.tuicool.com/articles/i6fuuyV  
 http://blog.liuker.cn/index.php/docker/32.html  
+https://www.ustack.com/blog/kubernetes1/  
