@@ -50,3 +50,6 @@ elasticsearch:
 3、运行docker compose
 
 docker-compose up
+
+使用Docker Compose
+http://debugo.com/docker-compose/
