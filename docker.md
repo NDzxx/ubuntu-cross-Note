@@ -20,4 +20,6 @@ https://c.163.com/hub#/m/home/
 时速云
 https://hub.tenxcloud.com/  
 mysql 5.7.11镜像  
-https://c.163.com/hub#/m/repository/?repoId=2955
+https://c.163.com/hub#/m/repository/?repoId=2955  
+Redis  
+https://c.163.com/hub#/m/repository/?repoId=2973
