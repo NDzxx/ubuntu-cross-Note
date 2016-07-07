@@ -67,5 +67,6 @@ http://www.tuicool.com/articles/vyyaYv
 http://www.oschina.net/translate/docker-and-the-pid-1-zombie-reaping-problem
 容器使用注意10个事  
 http://www.oschina.net/translate/10-things-to-avoid-in-docker-containers
-使用supervisor运行多进程Docker容器 可解决僵尸进程
-http://www.tuicool.com/articles/i6fuuyV
+使用supervisor运行多进程Docker容器 可解决僵尸进程  
+http://www.tuicool.com/articles/i6fuuyV  
+http://blog.liuker.cn/index.php/docker/32.html  
