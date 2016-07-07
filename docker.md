@@ -23,3 +23,6 @@ mysql 5.7.11镜像
 https://c.163.com/hub#/m/repository/?repoId=2955  
 Redis  
 https://c.163.com/hub#/m/repository/?repoId=2973
+docker pull hub.c.163.com/library/redis:3.0.7
+cento 6.5镜像
+docker pull hub.c.163.com/public/centos:6.5
