@@ -17,10 +17,9 @@ http://www.open-open.com/lib/view/open1464340715630.html
 http://blog.csdn.net/kongxx/article/details/38676917  
 国内网易云仓库    
 https://c.163.com/hub#/m/home/  
-时速云
-https://hub.tenxcloud.com/  
 mysql 5.7.11镜像  
 https://c.163.com/hub#/m/repository/?repoId=2955  
+docker pull hub.c.163.com/library/mysql:5.7.11
 Redis  
 https://c.163.com/hub#/m/repository/?repoId=2973
 docker pull hub.c.163.com/library/redis:3.0.7
