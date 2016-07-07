@@ -27,4 +27,6 @@ cento 6.5镜像
 docker pull hub.c.163.com/public/centos:6.5
 
 dockerFile教程
-https://segmentfault.com/a/1190000002711357
+https://segmentfault.com/a/1190000002711357  
+
+http://www.tuicool.com/articles/IruAJnF
