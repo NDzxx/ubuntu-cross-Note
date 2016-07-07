@@ -30,3 +30,6 @@ dockerFile教程
 https://segmentfault.com/a/1190000002711357  
 
 http://www.tuicool.com/articles/IruAJnF
+
+可以使用的创新应用
+http://www.pc.nd/index.php?doc-view-39752-docker%2C
