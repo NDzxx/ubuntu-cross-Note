@@ -19,6 +19,7 @@ Preparing...                ########################################### [100%]
 [root@localhost ~]# rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
 
 [root@localhost ~]# yum -y install docker-io
+[root@localhost ~]# yum upgrade device-mapper-libs
 ```
 
 
