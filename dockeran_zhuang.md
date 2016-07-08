@@ -18,5 +18,7 @@ Preparing...                ########################################### [100%]
    1:epel-release           ########################################### [100%]
 [root@localhost ~]# rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
 
+[root@localhost ~]# yum -y install docker-io
 ```
+
 
