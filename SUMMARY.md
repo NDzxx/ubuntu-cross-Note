@@ -20,4 +20,5 @@
    * [调试Release发布版程序的Crash错误(转)](crash.md)
    * [shadowsock](shadowsock.md)
 * [docker](docker.md)
+   * docker安装
 
