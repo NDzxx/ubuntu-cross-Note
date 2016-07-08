@@ -22,6 +22,7 @@ Preparing...                ########################################### [100%]
 [root@localhost ~]# yum upgrade device-mapper-libs
 [root@localhost ~]# service docker restart
 [root@localhost ~]# chkconfig docker on
+[root@localhost ~]# ./installDock.sh
 ```
 
 
