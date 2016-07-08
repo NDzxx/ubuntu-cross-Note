@@ -17,4 +17,6 @@ warning: /var/tmp/rpm-tmp.JN76fI: Header V3 RSA/SHA256 Signature, key ID 0608b89
 Preparing...                ########################################### [100%]
    1:epel-release           ########################################### [100%]
 [root@localhost ~]# rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
+
 ```
+
