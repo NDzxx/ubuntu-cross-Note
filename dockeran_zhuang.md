@@ -33,6 +33,9 @@ docker pull hub.c.163.com/library/redis:3.0.7
 #mysql 5.7.11镜像  
 docker pull hub.c.163.com/library/mysql:5.7.11
 
+
+http://blog.csdn.net/wuzhilon88/article/details/41621285/
+
 ```  
 
 
