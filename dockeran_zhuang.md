@@ -35,6 +35,8 @@ docker pull hub.c.163.com/library/mysql:5.7.11
 
 
 http://blog.csdn.net/wuzhilon88/article/details/41621285/
+要升级内核
+
 
 ```  
 
