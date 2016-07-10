@@ -36,6 +36,9 @@ docker pull hub.c.163.com/library/mysql:5.7.11
 
 http://blog.csdn.net/wuzhilon88/article/details/41621285/
 要升级内核
+http://www.oschina.net/translate/nstalling-dockerio-on-centos-64-64-bit?cmp
+
+测试6.4能否升级内核使用
 
 
 ```  
