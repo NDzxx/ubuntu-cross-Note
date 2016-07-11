@@ -14,6 +14,7 @@
    * [cento开启远程桌面](cento_yczm.md)
    * [cmake安装](cmakean_zhuang.md)
    * [虚拟机安装](vmInstall.md)
+   * putty连接
 * [iis7的配置](iis7de_pei_zhi.md)
 * [映射ip](ying_she_ip.md)
 * [breakPad](breakpad.md)
