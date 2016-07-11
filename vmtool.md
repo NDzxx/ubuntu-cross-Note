@@ -3,3 +3,32 @@ yum install perl gcc make kernel-headers kernel-devel -y
 cento 7需要安装
 yum install net-tools
 
+居然找不到Kernel header。
+
+Searching for a valid kernel header path...
+The path "" is not a valid path to the 3.10.0-229.4.2.el7.x86_64 kernel 
+headers.
+
+后来翻阅文档如下解决：
+
+#yum install kernel-devel-3.10.0-229.4.2.el7.x86_64 -y
+#cd /usr/src/kernels/
+#ll
+总用量 4
+drwxr-xr-x. 22 root root 4096 6月   8 23:40 3.10.0-229.4.2.el7.x86_64
+
+建立以下链接：
+
+ln /usr/src/kernels/3.10.0-229.4.2.el7.x86_64/include/generated/uapi/linux/version.h /usr/src/kernels/3.10.0-229.4.2.el7.x86_64/include/linux/version.h
+
+再次安装，终于不报错了。
+
+Searching for a valid kernel header path...
+Detected the kernel headers at 
+"/lib/modules/3.10.0-229.4.2.el7.x86_64/build/include".
+The path "/lib/modules/3.10.0-229.4.2.el7.x86_64/build/include" appears to be a
+valid path to the 3.10.0-229.4.2.el7.x86_64 kernel headers.
+Would you like to change it? [no]
+
+直接回车顺利完活。
+
