@@ -23,4 +23,5 @@
    * [shadowsock](shadowsock.md)
 * [docker](docker.md)
    * [docker安装](dockeran_zhuang.md)
+   * 安装测试
 
