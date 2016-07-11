@@ -44,6 +44,7 @@ http://www.oschina.net/translate/nstalling-dockerio-on-centos-64-64-bit?cmp
 1、查看当前系统内核
 # uname -r
 2 2.6.32-358.el6.i686
+3.10.0-327.e17.x86_64
 2、下载linux-3.4.56内核包
 # cd ~
 # wget -c https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.4.56.tar.xz
