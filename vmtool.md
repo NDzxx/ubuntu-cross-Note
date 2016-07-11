@@ -19,7 +19,7 @@ drwxr-xr-x. 22 root root 4096 6月   8 23:40 3.10.0-229.4.2.el7.x86_64
 
 建立以下链接：
 
-ln /usr/src/kernels/3.10.0-229.4.2.el7.x86_64/include/generated/uapi/linux/version.h /usr/src/kernels/3.10.0-229.4.2.el7.x86_64/include/linux/version.h
+ln /usr/src/kernels/3.10.0-229.4.2.el7.x86_64/include/generated/uapi/linux/version.h  /usr/src/kernels/3.10.0-229.4.2.el7.x86_64/include/linux/version.h
 
 再次安装，终于不报错了。
 
