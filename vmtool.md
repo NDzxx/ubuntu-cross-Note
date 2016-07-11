@@ -10,8 +10,8 @@ yum install net-tools
 
 mount /dev/tmp ./tmp
 
-
-
+/etc/vmware-tools/services.sh start
+http://www.cnblogs.com/xyq/p/4068018.html
 
 
 
