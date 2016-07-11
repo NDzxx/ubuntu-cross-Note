@@ -1,12 +1,21 @@
 # 虚拟机工具安装
-##配置网络
- vim /etc/sysconfig/network-scripts/ifcfg-eth0
- ONBOOT=yes　　　　　　　　　　#是否启动时运行
- service network restart
- ##安装虚拟机工具
-yum install perl gcc make kernel-headers kernel-devel -y
-cento 7需要安装
-yum install net-tools
+##配置网络  
+ vim /etc/sysconfig/network-scripts/ifcfg-eth0   
+ ONBOOT=yes　　　　　　　　　　#是否启动时运行   
+ service network restart  
+ ##安装虚拟机工具  
+yum install perl gcc make kernel-headers kernel-devel -y  
+cento 7需要安装  
+yum install net-tools  
+
+mount /dev/tmp ./tmp
+
+
+
+
+
+
+
 
 居然找不到Kernel header。
 
