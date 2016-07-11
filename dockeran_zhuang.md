@@ -33,7 +33,7 @@ docker pull hub.c.163.com/library/redis:3.0.7
 #mysql 5.7.11镜像  
 docker pull hub.c.163.com/library/mysql:5.7.11
 
-
+cento 6.5升级内核安装docker
 http://blog.csdn.net/wuzhilon88/article/details/41621285/
 要升级内核
 http://www.oschina.net/translate/nstalling-dockerio-on-centos-64-64-bit?cmp
