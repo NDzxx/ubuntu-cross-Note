@@ -1,24 +1,27 @@
 # redis3.0.7配置
 
-tar zxvf redis-3.0.7.tar.gz  
+[http:\/\/blog.csdn.net\/mlks\_2008\/article\/details\/19001595](http://blog.csdn.net/mlks_2008/article/details/19001595) 
 
-cd redis-3.0.7  
+tar zxvf redis-3.0.7.tar.gz
+
+cd redis-3.0.7
 
 如果不加参数,linux下会报错  
-make MALLOC=libc  
+make MALLOC=libc
 
-make install  
+make install
 
-cd redis-3.0.7  
+cd redis-3.0.7
 
-cp redis.conf /etc/redis.conf
+cp redis.conf \/etc\/redis.conf
 
-gedit /etc/redis.conf
+gedit \/etc\/redis.conf
 
-查看bind 127.0.0.1是否被绑定，如果绑定，加个#注释掉
+查看bind 127.0.0.1是否被绑定，如果绑定，加个\#注释掉
 查找daemonize 设置为yes
 
 开机自启动
+
 ```
 # chkconfig:   2345 90 10
 
@@ -68,7 +71,8 @@ echo "Usage: /etc/init.d/redis {start|stop|restart|force-reload}" >&2
 exit 1
 esac
 ```
-chmod +x /etc/init.d/redis
+
+chmod +x \/etc\/init.d\/redis
 sudo chkconfig redis on
 启动redis
 service redis start
@@ -78,5 +82,5 @@ service redis stop
 redis-cli shutdown
 
 客户端远程连接redis
-使用RedisStudio-en-0.1.5 
+使用RedisStudio-en-0.1.5
 
