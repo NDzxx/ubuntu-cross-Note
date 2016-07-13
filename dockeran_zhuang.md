@@ -49,6 +49,8 @@ http://blog.sina.com.cn/s/blog_6c25b1e50101ekf2.html
 2、下载linux-3.4.56内核包
 # cd ~
 # wget -c https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.4.56.tar.xz
+
+wget -c https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.18.tar.xz 
 # tar -Jxvf linux-3.4.56.tar.xz
 # mv linux-3.4.56 /usr/src/linux-3.4.56
 # cd linux-3.4.56
