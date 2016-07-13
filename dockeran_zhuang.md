@@ -39,6 +39,7 @@ http://blog.csdn.net/wuzhilon88/article/details/41621285/
 http://www.oschina.net/translate/nstalling-dockerio-on-centos-64-64-bit?cmp
 
 测试6.4能否升级内核使用
+http://blog.sina.com.cn/s/blog_6c25b1e50101ekf2.html
 
 当前系统为CentOS Linux release 6.4 (Final)，内核版本为2.6.32-358.el6.i686.将内核升级至3.4.56最新版本。
 1、查看当前系统内核
