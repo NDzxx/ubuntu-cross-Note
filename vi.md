@@ -5,3 +5,4 @@
 
 cento 7安装
 http://blog.csdn.net/weiguolong0306/article/details/50394219
+http://www.cnblogs.com/rusking/p/4252774.html
