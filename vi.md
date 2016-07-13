@@ -10,3 +10,5 @@ cento 7镜像
 http://www.centoscn.com/CentosSoft/iso/2016/0531/7330.html
 Tiny Core Linux 7.1
 http://www.centoscn.com/CentosSoft/linux/2016/0602/7358.html
+
+https://segmentfault.com/a/1190000000735011
