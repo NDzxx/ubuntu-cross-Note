@@ -30,3 +30,5 @@ yum install kernel-ml-aufs kernel-ml-aufs-devel
 
 http://www.iyunv.com/thread-126273-1-1.html
 rpm -ivh kernel-ml-aufs-devel-3.10.5-3.el6.x86_64.rpm  
+
+rpm -ivh kernel-ml-aufs-3.10.5-3.el6.x86_64.rpm  
