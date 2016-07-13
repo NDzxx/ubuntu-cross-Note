@@ -24,3 +24,4 @@ http://cn.soulmachine.me/blog/20131025/
 cd /etc/yum.repos.d 
 wget http://www.hop5.in/yum/el6/hop5.repo
 yum install kernel-ml-aufs kernel-ml-aufs-devel
+带aufs模块的3.10内核下载后先使用gzip -dv命令解压，然后再使用rpm -ivh命令安装。安装好后，设置/etc/grub.conf里default=0，重启系统
