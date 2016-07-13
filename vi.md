@@ -37,3 +37,5 @@ rpm -ivh kernel-ml-aufs-3.10.5-3.el6.x86_64.rpm
 http://blog.csdn.net/zhang__jiayu/article/details/43200685
 镜像加速下载
 https://c.163.com/wiki/index.php?title=DockerHub%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F
+
+http://wiki.jikexueyuan.com/project/docker/userguide/dockerimages.html
