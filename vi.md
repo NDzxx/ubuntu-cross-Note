@@ -39,3 +39,4 @@ http://blog.csdn.net/zhang__jiayu/article/details/43200685
 https://c.163.com/wiki/index.php?title=DockerHub%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F
 
 http://wiki.jikexueyuan.com/project/docker/userguide/dockerimages.html
+http://www.cnblogs.com/itech/p/5220122.html
