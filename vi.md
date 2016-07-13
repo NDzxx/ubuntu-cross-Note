@@ -12,3 +12,4 @@ Tiny Core Linux 7.1
 http://www.centoscn.com/CentosSoft/linux/2016/0602/7358.html
 
 https://segmentfault.com/a/1190000000735011
+http://nareshv.blogspot.tw/2013/08/installing-dockerio-on-centos-64-64-bit.html
