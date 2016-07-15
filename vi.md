@@ -1,4 +1,6 @@
-# vi
+
+
+  # vi
 
 首先要进入命令模式(按ESC退出INSERT模式)
 然后输入：/单词
@@ -39,4 +41,6 @@ http://blog.csdn.net/zhang__jiayu/article/details/43200685
 https://c.163.com/wiki/index.php?title=DockerHub%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F
 
 http://wiki.jikexueyuan.com/project/docker/userguide/dockerimages.html
-http://www.cnblogs.com/itech/p/5220122.html
+http://www.cnblogs.com/itech/p/5220122.html  
+
+ 今天从苹果网下载了ZOC，测试了一下，有些类似Windows下得XShell。 下载地址：http://soft.macx.cn/5193.htm 
