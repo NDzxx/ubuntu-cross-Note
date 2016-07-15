@@ -17,12 +17,12 @@ systemctl start docker.service
 ###网易蜂巢加速
  配置镜像加速   
 
-
-
 - Ubuntu | Debian | Centos    
 
 ``` 
- $ sudo echo "DOCKER_OPTS=\"\$DOCKER_OPTS --registry-mirror=http://hub-mirror.c.163.com\"" >> /etc/default/docker $ service docker restart 
+ $ sudo echo "DOCKER_OPTS=\"\$DOCKER_OPTS --registry-mirror=http://hub
+-mirror.c.163.com\"" >> /etc/default/docker
+ $ service docker restart 
 ``` 
 
 
