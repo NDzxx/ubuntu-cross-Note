@@ -88,6 +88,7 @@ docker run -t -i shiyanlou_ubuntu:1.0 /usr/bin/dockerTest
 - 查看容器运行情况  
 
 ```
-docker ps
-docker ps -a 查看所有应用
+docker ps  
+//查看所有应用
+docker ps -a  
 ```
