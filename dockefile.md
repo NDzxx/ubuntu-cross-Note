@@ -79,8 +79,11 @@ docker build -t shiyanlou .
 - 导入导出镜像  
 
 ```
-docker saver 
+docker save -o shiyanlou_img.tar shiyanlou_ubuntu:1.0
+
 ```
+![导出结果](assets/saveImg.jpg) 
+
 
 ##管理容器
 - 运行容器  
