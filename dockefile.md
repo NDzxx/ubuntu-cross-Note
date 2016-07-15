@@ -24,6 +24,20 @@ systemctl start docker.service
 -mirror.c.163.com\"" >> /etc/default/docker
  $ service docker restart 
 ``` 
+-  Windows  
+
+启动 Boot2docker Start Shell：  
+```
+$ sudo "sh -c \"echo EXTRA_ARGS=\'--registry-mirror=http://hub-mirror.c.163.com\' 
+>>/var/lib/boot2docker/profile\""
+
+```  
+- Mac  
+
+```
+$ boot2docker ssh sudo "sh -c \"echo EXTRA_ARGS=\'--registry-mirror=http://hub-mirror.c.163.com\' >>/var/lib/boot2docker/profile\"" $ boot2docker restart
+```
+
 
 
 
