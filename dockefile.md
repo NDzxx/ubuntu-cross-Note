@@ -99,5 +99,13 @@ docker ps -a
 ```
 docker stop vecId(容器id)
 ```
-- 查看容器信息
+- 查看容器信息  
+
+```
+ //查看cpu 内存 网络io等
+ docker stats >>./docker_stat.log
+//查看进程信息 pid uid tty等等
+ docker top f051e >>./docker_top.log
+
+```
 
