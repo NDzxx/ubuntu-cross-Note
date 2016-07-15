@@ -85,3 +85,9 @@ docker run -t -i shiyanlou_ubuntu:1.0 /usr/bin/dockerTest
  ![运行结果](assets/dock3.jpg) 
 
 
+- 查看容器运行情况  
+
+```
+docker ps
+docker ps -a 查看所有应用
+```
