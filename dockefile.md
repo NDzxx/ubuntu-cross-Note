@@ -74,8 +74,14 @@ ADD dockerTest /usr/bin
 ```
 docker build -t shiyanlou .
 ```
- ![文件夹情况](assets/dock2.jpg) 
+ ![镜像](assets/dock2.jpg) 
 
+- 运行容器  
 
+```
+docker run -t -i shiyanlou_ubuntu:1.0 /usr/bin/dockerTest
+
+```
+ ![运行结果](dock3.jpg) 
 
 
