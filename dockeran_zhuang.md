@@ -1,5 +1,5 @@
 # docker 6.X上 安装
-参考链接：
+参考链接： http://blog.csdn.net/wuzhilon88/article/details/41621285/ 
 
 ##查看内核和版本
 ```
