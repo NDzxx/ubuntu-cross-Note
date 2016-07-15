@@ -56,7 +56,9 @@ docker images
 docker rm vecId(依赖容器id)
 docker rmi imgId(镜像id)
 ```
-- 
+- 创建镜像  
+
+在对应文件夹下面建立
 
 
 
