@@ -76,7 +76,11 @@ ADD dockerTest /usr/bin
 docker build -t shiyanlou .
 ```
  ![镜像](assets/dock2.jpg) 
+- 导入导出镜像  
 
+```
+docker saver 
+```
 
 ##管理容器
 - 运行容器  
