@@ -45,6 +45,9 @@ $ boot2docker restart
 docker pull ubuntu:14.04
 ```
 
+##管理镜像
+- 查看信息  
+
 
 
 
