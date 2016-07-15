@@ -60,7 +60,7 @@ docker rmi imgId(镜像id)
 
 在对应应用同一个文件夹下建立dockefile
 
- ![文件夹情况](dockerfile1.jpg) 
+ ![文件夹情况]( assets/dockerfile1.jpg) 
 dockerfile内容  
 ```
 
@@ -74,7 +74,7 @@ ADD dockerTest /usr/bin
 ```
 docker build -t shiyanlou .
 ```
-
+ ![文件夹情况](assets/dock2.jpg) 
 
 
 
