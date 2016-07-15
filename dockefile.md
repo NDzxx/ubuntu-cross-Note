@@ -58,7 +58,8 @@ docker rmi imgId(镜像id)
 ```
 - 创建镜像  
 
-在对应文件夹下面建立
+在对应应用同一个文件夹下建立dockefile
+
 
 
 
