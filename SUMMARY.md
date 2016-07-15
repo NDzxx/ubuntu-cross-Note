@@ -22,7 +22,7 @@
     * [调试Release发布版程序的Crash错误\(转\)](crash.md)
     * [shadowsock](shadowsock.md)
 * [docker](docker.md)
-    * [docker安装](dockeran_zhuang.md)
+    * [docker 6.X 安装](dockeran_zhuang.md)
     * [安装测试](install.md)
     * [dockefile](dockefile.md)
 * [vi](vi.md)
