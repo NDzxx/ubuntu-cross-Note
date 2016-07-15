@@ -98,3 +98,5 @@ docker ps -a
 ```
 docker stop vecId(容器id)
 ```
+- 查看容器信息
+
