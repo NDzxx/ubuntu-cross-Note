@@ -76,6 +76,8 @@ docker build -t shiyanlou .
 ```
  ![镜像](assets/dock2.jpg) 
 
+
+##管理容器
 - 运行容器  
 
 ```
@@ -91,4 +93,8 @@ docker run -t -i shiyanlou_ubuntu:1.0 /usr/bin/dockerTest
 docker ps  
 //查看所有应用
 docker ps -a  
+```
+- 停止容器
+```
+docker stop vecId(容器id)
 ```
