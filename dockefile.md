@@ -84,7 +84,9 @@ docker save -o shiyanlou_img.tar shiyanlou_ubuntu:1.0
 ```
 ![导出结果](assets/saveImg.jpg) 
 
-
+``` 
+docker load -i shiyanlou_img.tar
+``` 
 ##管理容器
 - 运行容器  
 
