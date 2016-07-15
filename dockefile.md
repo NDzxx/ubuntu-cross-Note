@@ -82,7 +82,8 @@ docker build -t shiyanlou .
 
 ```
 docker run -t -i shiyanlou_ubuntu:1.0 /usr/bin/dockerTest
-
+//后台运行
+docker run -t -i -d shiyanlou_ubuntu:1.0 /usr/bin/dockerTest 
 ```
  ![运行结果](assets/dock3.jpg) 
 
