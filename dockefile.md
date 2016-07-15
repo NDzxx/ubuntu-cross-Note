@@ -60,7 +60,8 @@ docker rmi imgId(镜像id)
 
 在对应应用同一个文件夹下建立dockefile
 
- ![描述](图片链接) 
+ ![文件夹情况](dockerfile1.jpg) 
+
 
 
 
