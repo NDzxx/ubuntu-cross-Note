@@ -35,7 +35,9 @@ $ sudo "sh -c \"echo EXTRA_ARGS=\'--registry-mirror=http://hub-mirror.c.163.com\
 - Mac  
 
 ```
-$ boot2docker ssh sudo "sh -c \"echo EXTRA_ARGS=\'--registry-mirror=http://hub-mirror.c.163.com\' >>/var/lib/boot2docker/profile\"" $ boot2docker restart
+$ boot2docker ssh sudo "sh -c \"echo EXTRA_ARGS=\'--registry-mirror=http://hub-
+mirror.c.163.com\' >>/var/lib/boot2docker/profile\"" 
+$ boot2docker restart
 ```
 
 
