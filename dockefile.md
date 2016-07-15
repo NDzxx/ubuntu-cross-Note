@@ -70,7 +70,10 @@ ADD dockerTest /usr/bin
 #如马上运行就这样写
 #RUN  dockerTest 
 ```
-
+然后  
+```
+docker build -t shiyanlou .
+```
 
 
 
