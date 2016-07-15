@@ -1,3 +1,4 @@
+
 ##docker相关文档
 ##安装
 
@@ -84,6 +85,7 @@ docker build -t shiyanlou .
 docker run -t -i shiyanlou_ubuntu:1.0 /usr/bin/dockerTest
 //后台运行
 docker run -t -i -d shiyanlou_ubuntu:1.0 /usr/bin/dockerTest 
+ docker run --name shiyanlou_vec -t -i -d shiyanlou_ubuntu:1.0 /usr/bin/dockerTest 
 ```
  ![运行结果](assets/dock3.jpg) 
 
@@ -106,6 +108,11 @@ docker stop vecId(容器id)
  docker stats >>./docker_stat.log
 //查看进程信息 pid uid tty等等
  docker top f051e >>./docker_top.log
-
+//查看容器内应用输出
+ docker logs f051 >>./docker_outPut.log
 ```
+- 退出容器
+  - exit退出，此时容器停止
+  - ctrl+p,ctrl+q退出，回到宿主机，容器继续运行
+
 
