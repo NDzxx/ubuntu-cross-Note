@@ -23,7 +23,6 @@
     * [shadowsock](shadowsock.md)
 * [docker](docker.md)
     * [docker 6.X 安装](dockeran_zhuang.md)
-    * [安装测试](install.md)
     * [dockefile](dockefile.md)
 * [vi](vi.md)
 
