@@ -81,11 +81,18 @@ docker build -t shiyanlou .
 ##管理容器
 - 运行容器  
 
+
 ```
 docker run -t -i shiyanlou_ubuntu:1.0 /usr/bin/dockerTest
 //后台运行
 docker run -t -i -d shiyanlou_ubuntu:1.0 /usr/bin/dockerTest 
- docker run --name shiyanlou_vec -t -i -d shiyanlou_ubuntu:1.0 /usr/bin/dockerTest 
+//附加名字 --name
+docker run --name shiyanlou_vec -t -i -d shiyanlou_ubuntu:1.0 /usr/bin/dockerTest 
+参数：
+设置容器名称 shiyanlou（使用--name，如果不加该参数，Docker会随机产生一个名字）。 
+设置容器的主机名 shiyanlou(使用--hostname参数） 
+设定网络信息，这里只使用一个简单的参数设置MAC地址（--mac-address参数） 
+设置资源限制，设置容器中最大的进程数，包括soft和hard两个限制值（使用-ulimit nproc=...等参数） 
 ```
  ![运行结果](assets/dock3.jpg) 
 
