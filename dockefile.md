@@ -12,6 +12,6 @@ systemctl enable docker.service
 启动服务
 
 systemctl start docker.service
-##下载容器
+##下载镜像
 
 
