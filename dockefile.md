@@ -48,6 +48,17 @@ docker pull ubuntu:14.04
 ##管理镜像
 - 查看信息  
 
+```
+docker images
+```
+- 删除镜像  
+```
+docker rm vecId(依赖容器id)
+docker rmi imgId(镜像id)
+```
+- 
+
+
 
 
 
