@@ -39,7 +39,11 @@ $ boot2docker ssh sudo "sh -c \"echo EXTRA_ARGS=\'--registry-mirror=http://hub-
 mirror.c.163.com\' >>/var/lib/boot2docker/profile\"" 
 $ boot2docker restart
 ```
-
+###使用
+配置完成后，直接  
+```
+docker pull ubuntu:14.04
+```
 
 
 
