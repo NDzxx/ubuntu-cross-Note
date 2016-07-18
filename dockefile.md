@@ -94,7 +94,8 @@ docker load -i shiyanlou_img.tar
 
 
 ```
-docker start 容器名
+开启/停止/关闭 容器
+docker start/stop/restart 容器名 
 docker run -t -i shiyanlou_ubuntu:1.0 /usr/bin/dockerTest
 //后台运行
 docker run -t -i -d shiyanlou_ubuntu:1.0 /usr/bin/dockerTest 
