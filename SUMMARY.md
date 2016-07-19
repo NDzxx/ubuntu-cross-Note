@@ -26,5 +26,6 @@
     * [容器和镜像管理](dockefile.md)
     * [数据卷](数据卷.md)
     * [网络管理](网络管理.md)
+    * [docker mysql&redis](docker-mysqlredis.md)
 * [vi](vi.md)
 
