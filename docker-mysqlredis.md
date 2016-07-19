@@ -9,7 +9,8 @@ docker run --name mysql -v /home/zxx/ftp/BoxAcc/mysql_data:/var/lib/mysql -p 330
    
 redis运行  
 
-https://c.163.com/hub#/m/repository/?repoId=2973
+网易蜂巢redis使用( https://c.163.com/hub#/m/repository/?repoId=2973) 
+
 
 docker run --name redis -d redis redis-server 
 dockerfile  
