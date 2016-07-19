@@ -23,5 +23,7 @@ ADD cs405 /usr/bin
 RUN cs405
 ```
 
+ docker run --name redis -d hub.c.163.com/library/redis:latest redis-server --appendonly yes  -v /home/zxx/ftp/BoxAcc/redisData:/data 
+
 
 
