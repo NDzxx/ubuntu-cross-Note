@@ -4,7 +4,7 @@
 删除所有容器
 docker rm $(docker ps -a -q) 
 
-
+mysql运行
 docker run --name mysql -v /home/zxx/ftp/BoxAcc/mysql_data:/var/lib/mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d docker.io/mysql:latest
  
 dockerfile  
