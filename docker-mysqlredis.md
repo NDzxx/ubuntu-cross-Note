@@ -6,6 +6,9 @@ docker rm $(docker ps -a -q)
 
 mysql运行
 docker run --name mysql -v /home/zxx/ftp/BoxAcc/mysql_data:/var/lib/mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d docker.io/mysql:latest
+
+连接到mysql
+ docker exec -it  mysql  bash 
    
 redis运行  
 
@@ -19,3 +22,6 @@ FROM docker.io/centos:latest
 ADD cs405 /usr/bin
 RUN cs405
 ```
+
+
+
