@@ -11,7 +11,7 @@ redis运行
 
 https://c.163.com/hub#/m/repository/?repoId=2973
 
-docker run --name some-redis -d redis redis-server 
+docker run --name redis -d redis redis-server 
 dockerfile  
 ```
 FROM docker.io/centos:latest
