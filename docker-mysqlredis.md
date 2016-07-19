@@ -5,10 +5,10 @@
 docker rm $(docker ps -a -q) 
 
 mysql运行
-docker run --name mysql -v /home/zxx/ftp/BoxAcc/mysql_data:/var/lib/mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d docker.io/mysql:latest
+docker run --name vm_mysql -v /home/zxx/ftp/BoxAcc/mysql_data:/var/lib/mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d docker.io/mysql:latest
 
 连接到mysql
- docker exec -it  mysql  bash 
+ docker exec -it  vm_mysql  bash 
    
 redis运行  
 
