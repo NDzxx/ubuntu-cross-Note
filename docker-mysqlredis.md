@@ -26,5 +26,5 @@ RUN cs405
  docker run --name redis -v /home/zxx/ftp/BoxAcc/redisData:/data -p 6379:6379 -d hub.c.163.com/library/redis:latest redis-server --appendonly yes  
 
 
- docker run -t -i --name boxacc -v /home/zxx/ftp/BoxAcc/syslog:/usr/BoxAccount0.50/syslog /home/zxx/ftp/BoxAcc/dump:/usr/BoxAccount0.50/dump --link vm_sql:mysql redis:redis boxacc:v0.4 /bin/bash
+ docker run -t -i --name boxacc -v /home/zxx/ftp/BoxAcc/syslog:/usr/BoxAccount0.50/syslog /home/zxx/ftp/BoxAcc/dump:/usr/BoxAccount0.50/dumps --link vm_sql:mysql redis:redis boxacc:v0.4 /bin/bash
 
