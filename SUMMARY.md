@@ -28,4 +28,5 @@
     * [网络管理](网络管理.md)
     * [docker mysql&redis](docker-mysqlredis.md)
 * [vi](vi.md)
+* [redis和docker性能测试](redis和docker性能测试.md)
 
