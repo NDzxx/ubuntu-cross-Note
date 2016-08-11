@@ -20,3 +20,6 @@ http://www.jianshu.com/p/ad5bc1874976
 然而越是小型的作业，Docker产生的性能损耗也更明显，因为作业如果只有几秒或几毫秒，容器的启动时间就会变得不容忽视。
 另外，每个基准测试分别进行的10次实验中，时间差别都很小，说明Docker隔离的环境受到外部影响较小。  
 
+相关文章：  
+
+http://xiaorui.cc/2015/03/26/%E7%BA%BF%E4%B8%8A%E6%B5%8B%E8%AF%95docker%E5%9C%A8cpu%E5%AF%86%E9%9B%86%E8%BF%90%E7%AE%97%E7%9A%84%E5%9C%BA%E6%99%AF%E4%B8%8B%E6%80%A7%E8%83%BD%E7%9A%84%E8%A1%A8%E7%8E%B0/?utm_source=tuicool&utm_medium=referral
