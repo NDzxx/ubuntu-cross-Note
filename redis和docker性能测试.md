@@ -10,4 +10,6 @@ http://blog.csdn.net/yangcs2009/article/details/50781530#t4
 
 http://wenku.baidu.com/link?url=s7joX42ixdjzmPVPr97k_2g90WX4020fTnNsv55NLa0ey8487GK5eT5IUuwMXqx5vaAxFT_xjhUgeelBIfFI33AhH-uwdB5PZnXQ4u30UaS  
 
-![网上找的docker测试结果](assets/docker测试结论.jpg)
+![网上找的docker测试结果](assets/docker测试结论.jpg) 
+
+
