@@ -29,4 +29,5 @@
     * [docker mysql&redis](docker-mysqlredis.md)
 * [vi](vi.md)
 * [redis和docker性能测试](redis和docker性能测试.md)
+* [绿色版mysql5.7.9使用](绿色版mysql579使用.md)
 
