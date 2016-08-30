@@ -1,4 +1,5 @@
 #compose安装和使用
+##安装
 ##docker-compose.yml
 ```
 mysql:
