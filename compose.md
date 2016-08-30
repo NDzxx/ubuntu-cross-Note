@@ -1,5 +1,7 @@
-#compose安装和使用
-##安装
+# compose安装和使用
+
+## 安装
+
 ```shell
  curl -O https://bootstrap.pypa.io/get-pip.py
 
@@ -8,7 +10,9 @@
  pip install -U docker-compose
 
 ```
-##docker-compose.yml
+
+## docker-compose.yml编写
+
 ```
 mysql:
 
