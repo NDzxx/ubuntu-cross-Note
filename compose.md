@@ -53,5 +53,9 @@ vec_webserver:
 ```
 ##使用  
 
+```
+docker-compose up -d //-d 后台开启
+docker-compose down
 
+```
 
